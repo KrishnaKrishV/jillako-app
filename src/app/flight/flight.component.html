@@ -1,0 +1,107 @@
+<div class="col">
+    <div class="main-div">
+        <div class="top-div">
+            <section class="container">
+                <div class="row text-center">
+                    <div class="col-md-12 text-white">
+                        <h2 class="text-uppercase">Express your travel.
+                            <strong>Book Now !</strong>
+                        </h2>
+                    </div>
+                    <div class="col-md-12 text-white mt-3">
+                        <h5>Search for Over 500+ Airlines !</h5>
+                    </div>
+                </div>
+            </section>
+            <section class="flight-outer container rounded">
+                <div class="row">
+                    <section class="col-12">
+                        <div class="row justify-content-between">
+                            <div class="col-sm text-left">
+                                <label class="flight-search-radio-input text-white">
+                                    <input _ngcontent-gef-c4="" class="d-none ng-untouched ng-pristine ng-valid"
+                                        name="travelType" type="radio" value="oneway">
+                                    <span class="px-2 d-inline-block rounded">One-Way</span>
+                                </label>
+                                <label class="flight-search-radio-input text-white">
+                                    <input _ngcontent-gef-c4="" class="d-none ng-untouched ng-pristine ng-valid"
+                                        name="travelType" type="radio" value="oneway">
+                                    <span class="px-2 d-inline-block rounded">Round-trip</span>
+                                </label>
+                                <label class="flight-search-radio-input text-white">
+                                    <input _ngcontent-gef-c4="" class="d-none ng-untouched ng-pristine ng-valid"
+                                        name="travelType" type="radio" value="oneway">
+                                    <span class="px-2 d-inline-block rounded">Multi-city</span>
+                                </label>
+                            </div>
+                            <div class="col-sm text-left text-sm-right">
+                                <div class="d-inline-block p-2">
+                                    <label class="flight-search-radio-input text-white">
+                                        <input class="d-none" type="checkbox">
+                                        <span class="d-inline-block">Nonstop flights only</span>
+                                    </label>
+                                </div>
+                                <div class="d-inline-block p-2">
+                                    <label class="flight-search-radio-input text-white">
+                                        <input class="d-none" type="checkbox">
+                                        <span class="d-inline-block">Refundable</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="col-12">
+                        <div class="row">
+                            <section class="col-sm-4">
+                                <div class="text-white">
+                                    <input type="text" class="form-control" placeholder="Origin">
+                                </div>
+                                <div class="text-white">
+                                    <input type="text" class="form-control" placeholder="Destination">
+                                </div>
+                            </section>
+                            <section class="col-sm-3">
+                                <div class="row">
+                                    <section class="datepicker-trigger rounded-left" (click)="onDateChange()">
+                                        <small class="text-center w-100 d-inline-block">{{month}}</small>
+                                        <span class="text-center w-100 d-inline-block">{{date}}</span>
+
+
+                                        <small class="text-center w-100 d-inline-block">{{year}}</small>
+                                        <!-- <ngb-datepicker *ngIf="show"></ngb-datepicker> -->
+
+                                    </section>
+                                    <section class="datepicker-trigger text-center rounded-right">
+
+                                    </section>
+                                </div>
+                            </section>
+                            <section class="col-sm-5">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <select class="form-control">
+                                            <option>Economy</option>
+                                            <option>Premium Economy</option>
+                                            <option>Business</option>
+                                            <option>First class</option>
+                                        </select>
+                                        <select class="form-control">
+                                            <option>Passengers</option>
+                                            <option>Adults</option>
+                                            <option>Childrens</option>
+                                            <option>Infant</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-sm-4 btn-class">
+                                        <button type="button" class="btn btn-primary">Search Flights</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</div>

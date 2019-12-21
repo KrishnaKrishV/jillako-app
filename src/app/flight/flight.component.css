@@ -1,0 +1,188 @@
+.main-div {
+    background-image: url("../../assets/img/bg-home-page-flight-search.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    width: 100%;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.top-div {
+    padding-top: 100px;
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    /* width: 100%; */
+}
+section {
+    display: block;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    max-width: 1140px;
+}
+h2, h5{
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500; 
+    line-height: 1.2;
+    color: inherit;
+}
+div.row.text-center {
+    text-align: center!important;
+    font-family: Quicksand,Lato,'Open Sans',sans-serif!important;
+}
+.text-white{
+    color: white;
+}
+.mt-3{
+    margin-top: 1rem;
+}
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+strong {
+    font-weight: bolder;
+}
+.flight-outer{
+    background-color: rgba(44,113,181,.61);
+    padding: 1.5rem!important;
+    max-width: 1140px;
+    width: 100%;
+    text-align: center!important;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+.rounded{
+    border-radius: .25rem!important;
+}
+.px-2{
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+    padding-top: .5rem!important;
+    padding-bottom: .5rem!important;
+}
+.d-inline-block {
+    display: inline-block!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12, .col-md-12, .col-sm  {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.datepicker-trigger {
+    width: 48%;
+}
+.w-100 {
+    width: 100%;
+}
+small {
+    font-size: 80%;
+    font-weight: 400;
+}
+.trigger-day{
+    font-size: 2rem;
+}
+
+.datepicker-trigger {
+    background-color: #fff;
+    cursor: pointer;
+    width: 49.5%;
+    height: 100%;
+    min-height: 100px;
+    position: relative;
+    top: 0;
+}
+.rounded-right {
+    border-top-right-radius: .25rem!important;
+    border-bottom-right-radius: .25rem!important;
+}
+.rounded-left {
+    border-top-left-radius: .25rem!important;
+    border-bottom-left-radius: .25rem!important;
+    margin-right: 2px;
+}
+.ml-md-1{
+    margin-left: .25rem!important;
+}
+.mr-md-1 {
+    margin-right: .25rem!important;
+}
+.flight-search-radio-input {
+    cursor: pointer;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+input {
+    overflow: visible;
+}
+input {
+    height: 48px;
+    width: 103%;
+}
+select{
+    height: 46px;
+    width: 103%;   
+}
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}   
+.text-sm-right {
+    text-align: right!important;
+}
+.d-none{
+    display: none!important;
+}
+.p-2 {
+    padding: .5rem!important;
+}
+.mt-2, .my-2 {
+    margin-top: .5rem!important;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.form-control {
+    margin-top: 2px;
+}
+.btn-class{
+    margin-left: -15px;
+}
+button{
+    height: 96px;
+    width: 140px;
+}
+
